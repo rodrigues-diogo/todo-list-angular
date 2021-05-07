@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Itim", cursive;
+  font-weight: 300;
+  text-align: center;
+  background: rgb(68, 120, 129);
+  background: -moz-linear-gradient(
+    60deg,
+    rgb(68, 120, 129) 0%,
+    rgb(62, 63, 63) 100%
+  );
+  background: -webkit-linear-gradient(
+    60deg,
+    rgb(68, 120, 129) 0%,
+    rgb(62, 63, 63) 100%
+  );
+  background: linear-gradient(
+    60deg,
+    rgb(68, 120, 129) 0%,
+    rgb(62, 63, 63) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(rgb(68, 120, 129), endColor);
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 3px 5px #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+button {
+  cursor: pointer;
+}
